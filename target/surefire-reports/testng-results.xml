@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-16T02:30:16 IST" name="Suite" finished-at="2024-12-16T02:33:06 IST" duration-ms="169774">
+    <groups>
+      <group name="Functional">
+        <method signature="TC005_CartTest.testDeleteItemFromCart()[pri:1, instance:testCases.TC005_CartTest@5f9be66c]" name="testDeleteItemFromCart" class="testCases.TC005_CartTest"/>
+        <method signature="TC006_PurchaseTest.testOrderWindowRedirection()[pri:1, instance:testCases.TC006_PurchaseTest@3abada5a]" name="testOrderWindowRedirection" class="testCases.TC006_PurchaseTest"/>
+        <method signature="TC005_CartTest.testTotalPriceCalculation()[pri:2, instance:testCases.TC005_CartTest@5f9be66c]" name="testTotalPriceCalculation" class="testCases.TC005_CartTest"/>
+        <method signature="TC006_PurchaseTest.testCompleteOrderProcess()[pri:2, instance:testCases.TC006_PurchaseTest@3abada5a]" name="testCompleteOrderProcess" class="testCases.TC006_PurchaseTest"/>
+        <method signature="TC005_CartTest.testClearCart()[pri:3, instance:testCases.TC005_CartTest@5f9be66c]" name="testClearCart" class="testCases.TC005_CartTest"/>
+      </group> <!-- Functional -->
+      <group name="Master">
+        <method signature="TC007_EndToEndTest.testCompleteCart()[pri:0, instance:testCases.TC007_EndToEndTest@66c61024]" name="testCompleteCart" class="testCases.TC007_EndToEndTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.Validlogin()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" name="Validlogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_SignUpTest.validateSignUpFunction()[pri:1, instance:testCases.TC001_SignUpTest@1800a575]" name="validateSignUpFunction" class="testCases.TC001_SignUpTest"/>
+        <method signature="TC001_SignUpTest.validSignUp()[pri:2, instance:testCases.TC001_SignUpTest@1800a575]" name="validSignUp" class="testCases.TC001_SignUpTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC004_ProductDetailsTest.selectProductCategory()[pri:0, instance:testCases.TC004_ProductDetailsTest@141e5bef]" name="selectProductCategory" class="testCases.TC004_ProductDetailsTest"/>
+        <method signature="TC004_ProductDetailsTest.testProductRedirection()[pri:1, instance:testCases.TC004_ProductDetailsTest@141e5bef]" name="testProductRedirection" class="testCases.TC004_ProductDetailsTest"/>
+        <method signature="TC004_ProductDetailsTest.testProductDetailsAccuracy()[pri:2, instance:testCases.TC004_ProductDetailsTest@141e5bef]" name="testProductDetailsAccuracy" class="testCases.TC004_ProductDetailsTest"/>
+        <method signature="TC003_ProductCategoryTest.ProductDetails()[pri:1, instance:testCases.TC003_ProductCategoryTest@60856961]" name="ProductDetails" class="testCases.TC003_ProductCategoryTest"/>
+        <method signature="TC003_ProductCategoryTest.testVerifyNavigationMenuItems()[pri:2, instance:testCases.TC003_ProductCategoryTest@60856961]" name="testVerifyNavigationMenuItems" class="testCases.TC003_ProductCategoryTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-12-16T02:30:16 IST" name="Test" finished-at="2024-12-16T02:33:06 IST" duration-ms="169774">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@363a52f]" started-at="2024-12-16T02:30:33 IST" name="setup" finished-at="2024-12-16T02:30:36 IST" duration-ms="3051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validlogin()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" started-at="2024-12-16T02:30:36 IST" name="Validlogin" finished-at="2024-12-16T02:30:43 IST" duration-ms="6959" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=131.0.6778.140): Wrong password.
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4daeab6325ea932eb2d9cece0b75c466, findElement {using=xpath, value=//a[@id='nameofuser']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62557}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62557/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4daeab6325ea932eb2d9cece0b75c466]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=131.0.6778.140): Wrong password.
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4daeab6325ea932eb2d9cece0b75c466, findElement {using=xpath, value=//a[@id='nameofuser']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62557}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62557/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4daeab6325ea932eb2d9cece0b75c466
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+at pageObjects.LoginPage.IsWelcomeMessageExists(LoginPage.java:43)
+at testCases.TC002_LoginTest.Validlogin(TC002_LoginTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@363a52f]" started-at="2024-12-16T02:30:44 IST" name="teardown" finished-at="2024-12-16T02:30:44 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC005_CartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_CartTest@5f9be66c]" started-at="2024-12-16T02:31:17 IST" name="setup" finished-at="2024-12-16T02:31:19 IST" duration-ms="2543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDeleteItemFromCart()[pri:1, instance:testCases.TC005_CartTest@5f9be66c]" started-at="2024-12-16T02:31:19 IST" name="testDeleteItemFromCart" description="Verify Item Deletion from Cart" finished-at="2024-12-16T02:31:26 IST" duration-ms="7114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteItemFromCart -->
+        <test-method signature="testTotalPriceCalculation()[pri:2, instance:testCases.TC005_CartTest@5f9be66c]" started-at="2024-12-16T02:31:26 IST" name="testTotalPriceCalculation" description="Verify Total Price Calculation" finished-at="2024-12-16T02:31:40 IST" duration-ms="14146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPriceCalculation -->
+        <test-method signature="testClearCart()[pri:3, instance:testCases.TC005_CartTest@5f9be66c]" started-at="2024-12-16T02:31:40 IST" name="testClearCart" description="Verify Cart Clearing" finished-at="2024-12-16T02:32:20 IST" duration-ms="39999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC005_CartTest@5f9be66c]" started-at="2024-12-16T02:32:20 IST" name="teardown" finished-at="2024-12-16T02:32:21 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC005_CartTest -->
+      <class name="testCases.TC006_PurchaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_PurchaseTest@3abada5a]" started-at="2024-12-16T02:32:21 IST" name="setup" finished-at="2024-12-16T02:32:24 IST" duration-ms="2738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOrderWindowRedirection()[pri:1, instance:testCases.TC006_PurchaseTest@3abada5a]" started-at="2024-12-16T02:32:24 IST" name="testOrderWindowRedirection" finished-at="2024-12-16T02:32:30 IST" duration-ms="6925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderWindowRedirection -->
+        <test-method signature="testCompleteOrderProcess()[pri:2, instance:testCases.TC006_PurchaseTest@3abada5a]" started-at="2024-12-16T02:32:30 IST" name="testCompleteOrderProcess" finished-at="2024-12-16T02:32:35 IST" duration-ms="4869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteOrderProcess -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_PurchaseTest@3abada5a]" started-at="2024-12-16T02:32:35 IST" name="teardown" finished-at="2024-12-16T02:32:36 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC006_PurchaseTest -->
+      <class name="testCases.TC003_ProductCategoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_ProductCategoryTest@60856961]" started-at="2024-12-16T02:30:44 IST" name="setup" finished-at="2024-12-16T02:30:47 IST" duration-ms="2904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductDetails()[pri:1, instance:testCases.TC003_ProductCategoryTest@60856961]" started-at="2024-12-16T02:30:47 IST" name="ProductDetails" finished-at="2024-12-16T02:30:47 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDetails -->
+        <test-method signature="testVerifyNavigationMenuItems()[pri:2, instance:testCases.TC003_ProductCategoryTest@60856961]" started-at="2024-12-16T02:30:47 IST" name="testVerifyNavigationMenuItems" description="verifying the naviation menu items" finished-at="2024-12-16T02:30:47 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyNavigationMenuItems -->
+        <test-method signature="testVerifyCategoryMenuItems()[pri:3, instance:testCases.TC003_ProductCategoryTest@60856961]" started-at="2024-12-16T02:30:47 IST" name="testVerifyCategoryMenuItems" description="validating category menus" finished-at="2024-12-16T02:30:47 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyCategoryMenuItems -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_ProductCategoryTest@60856961]" started-at="2024-12-16T02:30:47 IST" name="teardown" finished-at="2024-12-16T02:30:47 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_ProductCategoryTest -->
+      <class name="testCases.TC004_ProductDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_ProductDetailsTest@141e5bef]" started-at="2024-12-16T02:30:47 IST" name="setup" finished-at="2024-12-16T02:30:49 IST" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectProductCategory()[pri:0, instance:testCases.TC004_ProductDetailsTest@141e5bef]" started-at="2024-12-16T02:30:49 IST" name="selectProductCategory" finished-at="2024-12-16T02:30:53 IST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductCategory -->
+        <test-method signature="testProductRedirection()[pri:1, instance:testCases.TC004_ProductDetailsTest@141e5bef]" started-at="2024-12-16T02:30:53 IST" name="testProductRedirection" finished-at="2024-12-16T02:30:57 IST" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductRedirection -->
+        <test-method signature="testProductDetailsAccuracy()[pri:2, instance:testCases.TC004_ProductDetailsTest@141e5bef]" started-at="2024-12-16T02:30:57 IST" name="testProductDetailsAccuracy" finished-at="2024-12-16T02:30:57 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductDetailsAccuracy -->
+        <test-method signature="testAddProductToCart()[pri:0, instance:testCases.TC004_ProductDetailsTest@141e5bef]" started-at="2024-12-16T02:30:57 IST" name="testAddProductToCart" finished-at="2024-12-16T02:31:16 IST" depends-on-methods="testCases.TC004_ProductDetailsTest.testProductDetailsAccuracy" duration-ms="19103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_ProductDetailsTest@141e5bef]" started-at="2024-12-16T02:31:16 IST" name="teardown" finished-at="2024-12-16T02:31:17 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC004_ProductDetailsTest -->
+      <class name="testCases.TC007_EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_EndToEndTest@66c61024]" started-at="2024-12-16T02:32:36 IST" name="setup" finished-at="2024-12-16T02:32:38 IST" duration-ms="2531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCompleteCart()[pri:0, instance:testCases.TC007_EndToEndTest@66c61024]" started-at="2024-12-16T02:32:38 IST" name="testCompleteCart" finished-at="2024-12-16T02:33:05 IST" duration-ms="26930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC007_EndToEndTest@66c61024]" started-at="2024-12-16T02:33:05 IST" name="teardown" finished-at="2024-12-16T02:33:06 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC007_EndToEndTest -->
+      <class name="testCases.TC001_SignUpTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_SignUpTest@1800a575]" started-at="2024-12-16T02:30:16 IST" name="setup" finished-at="2024-12-16T02:30:19 IST" duration-ms="3328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSignUpFunction()[pri:1, instance:testCases.TC001_SignUpTest@1800a575]" started-at="2024-12-16T02:30:19 IST" name="validateSignUpFunction" finished-at="2024-12-16T02:30:23 IST" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpFunction -->
+        <test-method signature="validSignUp()[pri:2, instance:testCases.TC001_SignUpTest@1800a575]" started-at="2024-12-16T02:30:23 IST" name="validSignUp" finished-at="2024-12-16T02:30:33 IST" duration-ms="10379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_SignUpTest@1800a575]" started-at="2024-12-16T02:30:33 IST" name="teardown" finished-at="2024-12-16T02:30:33 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_SignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

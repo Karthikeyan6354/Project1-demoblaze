@@ -1,0 +1,505 @@
+00:14:43.219 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+00:14:43.457 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml
+
+00:14:47.942 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+00:14:47.973 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+00:14:47.973 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+00:14:48.057 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+00:14:48.569 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+00:14:48.569 [main] INFO  testCases.TC007_EndToEndTest - click login button
+00:14:48.653 [main] INFO  testCases.TC007_EndToEndTest - ....Product Category page.....
+00:16:37.530 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+00:16:37.722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml
+
+00:16:40.866 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+00:16:40.881 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+00:16:40.881 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+00:16:40.959 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+00:16:41.470 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+00:16:41.470 [main] INFO  testCases.TC007_EndToEndTest - click login button
+00:16:41.565 [main] INFO  testCases.TC007_EndToEndTest - ....Product Category page.....
+00:16:41.565 [main] INFO  testCases.TC007_EndToEndTest - select product category
+00:16:41.566 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+00:17:43.176 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+00:17:43.388 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml
+
+00:17:46.635 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+00:17:46.648 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+00:17:46.648 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+00:17:46.726 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+00:17:47.301 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+00:17:47.301 [main] INFO  testCases.TC007_EndToEndTest - click login button
+00:17:47.389 [main] INFO  testCases.TC007_EndToEndTest - ....Product Category page.....
+00:17:47.389 [main] INFO  testCases.TC007_EndToEndTest - select product category
+00:17:47.390 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+00:17:51.218 [main] INFO  testCases.TC007_EndToEndTest - select product
+00:17:51.968 [main] INFO  testCases.TC007_EndToEndTest - added to the cart
+00:17:55.008 [main] INFO  testCases.TC007_EndToEndTest - ...Cart Page....
+00:17:55.791 [main] INFO  testCases.TC007_EndToEndTest - order Placed
+00:17:58.796 [main] INFO  testCases.TC007_EndToEndTest - Fill order details
+00:17:59.285 [main] INFO  testCases.TC007_EndToEndTest - provided all the details
+00:17:59.285 [main] INFO  testCases.TC007_EndToEndTest - Purchase and verify
+00:18:07.585 [main] INFO  testCases.TC007_EndToEndTest - End to End Test done succesfully
+01:24:02.736 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+01:24:09.166 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+01:24:09.166 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+01:24:09.255 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+01:24:09.292 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+01:24:12.435 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+01:24:12.472 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+01:24:12.487 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+01:24:19.862 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+01:24:25.938 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+01:24:25.938 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+01:24:25.992 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+01:24:26.092 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+01:24:26.237 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+01:24:34.759 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:24:48.651 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+01:24:55.595 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+01:25:12.712 [main] INFO  testCases.TC004_ProductDetailsTest - adding the ites to cart
+01:25:18.007 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+01:25:18.008 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:25:23.337 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+01:25:24.989 [main] INFO  testCases.TC005_CartTest - Delete First Item
+01:25:25.117 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+01:25:25.221 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+01:25:25.593 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:25:30.158 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+01:25:47.295 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+01:25:47.295 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+01:25:48.037 [main] INFO  testCases.TC005_CartTest - Total Price verification
+01:25:51.084 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+01:25:52.084 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:25:57.285 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+01:25:57.997 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+01:25:58.826 [main] INFO  testCases.TC005_CartTest - Clear Cart
+01:26:03.960 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+01:26:08.193 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+01:26:11.373 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+01:26:11.401 [main] INFO  testCases.TC006_PurchaseTest - user details section
+01:26:11.547 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+01:26:12.048 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+01:26:19.005 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+01:26:19.006 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+01:26:19.006 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+01:26:20.265 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+01:26:20.902 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+01:26:20.905 [main] INFO  testCases.TC007_EndToEndTest - click login button
+01:26:21.015 [main] INFO  testCases.TC007_EndToEndTest - ....Product Category page.....
+01:34:25.631 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+01:34:30.176 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+01:34:30.177 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+01:34:30.288 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+01:34:30.419 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+01:34:33.541 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+01:34:33.600 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+01:34:33.777 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+01:34:41.100 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+01:34:47.240 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+01:34:47.241 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+01:34:47.290 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+01:34:47.322 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+01:34:47.433 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+01:34:58.840 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:34:58.881 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+01:35:03.335 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+01:35:03.336 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+01:35:20.031 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+01:35:28.029 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+01:35:45.568 [main] INFO  testCases.TC004_ProductDetailsTest - adding the ites to cart
+01:35:50.978 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+01:35:50.978 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:35:56.788 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+01:35:58.346 [main] INFO  testCases.TC005_CartTest - Delete First Item
+01:35:58.468 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+01:35:58.560 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+01:35:58.704 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:36:03.164 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+01:36:09.429 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+01:36:09.430 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+01:36:10.101 [main] INFO  testCases.TC005_CartTest - Total Price verification
+01:36:13.143 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+01:36:13.390 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:36:18.663 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+01:36:19.158 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+01:36:20.060 [main] INFO  testCases.TC005_CartTest - Clear Cart
+01:36:27.132 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+01:36:30.319 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+01:36:33.570 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+01:36:33.599 [main] INFO  testCases.TC006_PurchaseTest - user details section
+01:36:33.742 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+01:36:34.258 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+01:36:42.531 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+01:36:42.532 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+01:36:42.532 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+01:36:42.651 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+01:36:43.308 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+01:36:43.308 [main] INFO  testCases.TC007_EndToEndTest - click login button
+01:36:43.428 [main] INFO  testCases.TC007_EndToEndTest - ....Product Category page.....
+01:45:33.405 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+01:45:37.468 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+01:45:37.470 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+01:45:37.552 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+01:45:37.588 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+01:45:40.713 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+01:45:40.746 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+01:45:40.763 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+01:45:48.053 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+01:45:54.087 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+01:45:54.087 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+01:45:54.131 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+01:45:54.153 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+01:45:54.227 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+01:46:03.236 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:46:15.467 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+01:46:23.856 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+01:46:41.038 [main] INFO  testCases.TC004_ProductDetailsTest - adding the ites to cart
+01:46:45.752 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+01:46:45.752 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:46:51.184 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+01:46:52.888 [main] INFO  testCases.TC005_CartTest - Delete First Item
+01:46:52.994 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+01:46:53.080 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+01:46:53.277 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:46:57.490 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+01:47:03.869 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+01:47:03.869 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+01:47:04.551 [main] INFO  testCases.TC005_CartTest - Total Price verification
+01:47:07.591 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+01:47:08.035 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+01:47:13.304 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+01:47:13.535 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+01:47:14.440 [main] INFO  testCases.TC005_CartTest - Clear Cart
+01:47:37.306 [main] INFO  testCases.TC005_CartTest - Verify Cart is Empty
+01:47:52.875 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+01:47:54.976 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+01:47:58.203 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+01:47:58.232 [main] INFO  testCases.TC006_PurchaseTest - user details section
+01:47:58.363 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+01:47:58.972 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+01:48:06.696 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+01:48:06.696 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+01:48:06.696 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+01:48:06.861 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+01:48:07.478 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+01:48:07.478 [main] INFO  testCases.TC007_EndToEndTest - click login button
+01:48:07.574 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+01:48:11.226 [main] INFO  testCases.TC007_EndToEndTest - select product
+01:48:11.940 [main] INFO  testCases.TC007_EndToEndTest - added to the cart
+01:48:14.969 [main] INFO  testCases.TC007_EndToEndTest - ...Cart Page....
+01:48:16.102 [main] INFO  testCases.TC007_EndToEndTest - order Placed
+01:48:19.115 [main] INFO  testCases.TC007_EndToEndTest - Fill order details
+01:48:19.664 [main] INFO  testCases.TC007_EndToEndTest - provided all the details
+01:48:19.664 [main] INFO  testCases.TC007_EndToEndTest - Purchase and verify
+01:48:27.851 [main] INFO  testCases.TC007_EndToEndTest - End to End Test done succesfully
+01:50:26.429 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+01:50:26.638 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+01:53:20.928 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+01:53:21.126 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+01:53:24.397 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:53:24.451 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+01:53:24.619 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+01:53:24.619 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+01:53:24.969 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+01:53:24.970 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+01:55:17.292 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+01:55:17.512 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+01:55:20.819 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:55:20.877 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+01:55:21.093 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+01:55:21.093 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+01:55:21.404 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+01:55:21.404 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+01:56:03.599 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+01:56:03.802 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+01:56:06.874 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:56:06.929 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+01:56:07.139 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+01:56:07.139 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+01:56:07.420 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+01:56:07.420 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+01:58:52.352 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+01:58:52.559 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+01:58:55.640 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+01:58:55.702 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+01:58:55.936 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+01:58:55.936 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+01:58:56.240 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+01:58:56.240 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+02:04:05.917 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+02:04:06.147 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+02:04:09.841 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+02:04:09.899 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+02:04:10.060 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+02:04:10.060 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+02:04:10.153 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+02:04:10.153 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+02:05:41.149 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+02:05:45.170 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+02:05:45.170 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+02:05:45.241 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+02:05:45.261 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+02:05:48.387 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+02:05:48.439 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+02:05:48.485 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+02:05:55.769 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+02:06:01.151 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+02:06:01.155 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+02:06:02.340 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+02:06:02.365 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+02:06:02.441 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+02:06:06.545 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+02:06:07.733 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+02:06:07.886 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+02:06:07.886 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+02:06:07.922 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+02:06:07.922 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+02:06:10.793 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+02:06:17.708 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+02:06:33.931 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:06:33.933 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:06:39.570 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:06:41.186 [main] INFO  testCases.TC005_CartTest - Delete First Item
+02:06:41.306 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+02:06:41.387 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:06:41.595 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:06:45.837 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+02:06:52.121 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+02:06:52.121 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+02:06:52.821 [main] INFO  testCases.TC005_CartTest - Total Price verification
+02:06:55.857 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+02:06:56.094 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:07:00.841 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+02:07:01.371 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:07:02.450 [main] INFO  testCases.TC005_CartTest - Clear Cart
+02:07:25.308 [main] INFO  testCases.TC005_CartTest - Verify Cart is Empty
+02:07:39.412 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+02:07:42.208 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+02:07:45.382 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+02:07:45.407 [main] INFO  testCases.TC006_PurchaseTest - user details section
+02:07:45.549 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+02:07:46.052 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+02:07:54.135 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+02:07:54.135 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+02:07:54.136 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+02:07:54.371 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+02:07:55.117 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+02:07:55.117 [main] INFO  testCases.TC007_EndToEndTest - click login button
+02:07:55.287 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+02:07:59.060 [main] INFO  testCases.TC007_EndToEndTest - select product
+02:07:59.761 [main] INFO  testCases.TC007_EndToEndTest - added to the cart
+02:08:02.797 [main] INFO  testCases.TC007_EndToEndTest - ...Cart Page....
+02:08:04.387 [main] INFO  testCases.TC007_EndToEndTest - order Placed
+02:08:07.401 [main] INFO  testCases.TC007_EndToEndTest - Fill order details
+02:08:07.936 [main] INFO  testCases.TC007_EndToEndTest - provided all the details
+02:08:07.936 [main] INFO  testCases.TC007_EndToEndTest - Purchase and verify
+02:08:15.872 [main] INFO  testCases.TC007_EndToEndTest - End to End Test done successfully
+02:14:03.361 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+02:14:07.930 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+02:14:07.930 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+02:14:07.979 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+02:14:08.003 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+02:14:11.118 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+02:14:11.150 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+02:14:11.170 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+02:14:18.460 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+02:14:24.868 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+02:14:24.869 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+02:14:24.900 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+02:14:24.922 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+02:14:24.991 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+02:14:32.329 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+02:14:32.366 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+02:14:32.529 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+02:14:32.529 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+02:14:32.566 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+02:14:32.566 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+02:14:35.719 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+02:14:42.606 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+02:14:59.872 [main] INFO  testCases.TC004_ProductDetailsTest - adding the ites to cart
+02:15:03.837 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:15:03.841 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:15:10.010 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:15:12.174 [main] INFO  testCases.TC005_CartTest - Delete First Item
+02:15:12.302 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+02:15:12.383 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:15:12.728 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:15:16.560 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+02:15:22.675 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+02:15:22.676 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+02:15:23.577 [main] INFO  testCases.TC005_CartTest - Total Price verification
+02:15:26.626 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+02:15:27.277 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:15:32.751 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+02:15:33.203 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:15:34.058 [main] INFO  testCases.TC005_CartTest - Clear Cart
+02:15:56.805 [main] INFO  testCases.TC005_CartTest - Verify Cart is Empty
+02:16:10.352 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+02:16:13.906 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+02:16:17.114 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+02:16:17.141 [main] INFO  testCases.TC006_PurchaseTest - user details section
+02:16:17.266 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+02:16:17.755 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+02:16:25.255 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+02:16:25.257 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+02:16:25.257 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+02:16:25.438 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+02:16:26.120 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+02:16:26.120 [main] INFO  testCases.TC007_EndToEndTest - click login button
+02:16:26.238 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+02:16:30.050 [main] INFO  testCases.TC007_EndToEndTest - select product
+02:16:30.749 [main] INFO  testCases.TC007_EndToEndTest - added to the cart
+02:16:33.782 [main] INFO  testCases.TC007_EndToEndTest - ...Cart Page....
+02:16:34.664 [main] INFO  testCases.TC007_EndToEndTest - order Placed
+02:16:37.671 [main] INFO  testCases.TC007_EndToEndTest - Fill order details
+02:16:38.238 [main] INFO  testCases.TC007_EndToEndTest - provided all the details
+02:16:38.238 [main] INFO  testCases.TC007_EndToEndTest - Purchase and verify
+02:16:46.424 [main] INFO  testCases.TC007_EndToEndTest - End to End Test done successfully
+02:22:10.119 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+02:22:10.466 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+02:22:14.807 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+02:22:14.808 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+02:22:14.856 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+02:22:14.899 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+02:22:14.978 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+02:22:54.100 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml"
+02:22:54.329 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Karthi_July_29 Space\demoBlaze\testng.xml
+
+02:22:57.812 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+02:22:57.813 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+02:22:57.904 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+02:22:57.946 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+02:22:58.043 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+02:25:52.974 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+02:25:58.594 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+02:25:58.595 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+02:25:58.688 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+02:25:58.719 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+02:26:01.839 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+02:26:01.882 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+02:26:01.905 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+02:26:09.263 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+02:26:21.731 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+02:26:21.731 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+02:26:21.765 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+02:26:21.786 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+02:26:21.945 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+02:26:31.790 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+02:26:31.850 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+02:26:32.018 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+02:26:32.018 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+02:26:32.232 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+02:26:32.232 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+02:26:35.254 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+02:26:43.367 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+02:27:00.566 [main] INFO  testCases.TC004_ProductDetailsTest - adding the ites to cart
+02:27:04.446 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:27:04.447 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:27:11.136 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:27:12.864 [main] INFO  testCases.TC005_CartTest - Delete First Item
+02:27:12.991 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+02:27:13.076 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:27:13.297 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:27:17.988 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+02:27:24.007 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+02:27:24.007 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+02:27:24.851 [main] INFO  testCases.TC005_CartTest - Total Price verification
+02:27:27.893 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+02:27:28.323 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:27:33.485 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+02:27:33.746 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:27:34.503 [main] INFO  testCases.TC005_CartTest - Clear Cart
+02:27:57.324 [main] INFO  testCases.TC005_CartTest - Verify Cart is Empty
+02:28:10.770 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+02:28:14.291 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+02:28:17.475 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+02:28:17.505 [main] INFO  testCases.TC006_PurchaseTest - user details section
+02:28:17.656 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+02:28:18.195 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+02:28:26.218 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+02:28:26.220 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+02:28:26.220 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+02:28:26.328 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+02:28:27.002 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+02:28:27.002 [main] INFO  testCases.TC007_EndToEndTest - click login button
+02:28:27.100 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+02:30:15.809 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Karthi_July_29 Space\demoBlaze\Master.xml"
+02:30:19.809 [main] INFO  testCases.TC001_SignUpTest - *****Login Test has Started ....
+02:30:19.809 [main] INFO  testCases.TC001_SignUpTest - ....Home Page....
+02:30:19.877 [main] INFO  testCases.TC001_SignUpTest - Sign Up link is diplayed in the homepage
+02:30:19.911 [main] INFO  testCases.TC001_SignUpTest - Sign link is clikable
+02:30:23.039 [main] INFO  testCases.TC001_SignUpTest -  .........Sign Up page......
+02:30:23.082 [main] INFO  testCases.TC001_SignUpTest - Sign up page is visible
+02:30:23.105 [main] INFO  testCases.TC001_SignUpTest - ***validSignUp***
+02:30:30.456 [main] INFO  testCases.TC001_SignUpTest - Sign up done successfully
+02:30:36.900 [main] INFO  testCases.TC002_LoginTest - ********Login Test********
+02:30:36.900 [main] INFO  testCases.TC002_LoginTest - .......Valid Login.......
+02:30:36.933 [main] INFO  testCases.TC002_LoginTest - Login link is displayed
+02:30:36.960 [main] INFO  testCases.TC002_LoginTest - Login link is clickable
+02:30:37.034 [main] INFO  testCases.TC002_LoginTest - .......Login Page.....
+02:30:47.374 [main] INFO  testCases.TC003_ProductCategoryTest - *****TC003_ProductCategoryTest****
+02:30:47.419 [main] INFO  testCases.TC003_ProductCategoryTest - Logo is displayed properly
+02:30:47.585 [main] INFO  testCases.TC003_ProductCategoryTest - Expected menu items
+02:30:47.585 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected menu item exists
+02:30:47.628 [main] INFO  testCases.TC003_ProductCategoryTest - Expected category items
+02:30:47.628 [main] INFO  testCases.TC003_ProductCategoryTest - Verify each expected category exists
+02:30:49.816 [main] INFO  testCases.TC004_ProductDetailsTest - ******TC004_ProductDetailsTest***
+02:30:57.685 [main] INFO  testCases.TC004_ProductDetailsTest - Selecting the product
+02:31:15.147 [main] INFO  testCases.TC004_ProductDetailsTest - adding the ites to cart
+02:31:19.708 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:31:19.710 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:31:24.872 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:31:26.599 [main] INFO  testCases.TC005_CartTest - Delete First Item
+02:31:26.716 [main] INFO  testCases.TC005_CartTest - Cart Count Reduced
+02:31:26.824 [main] INFO  testCases.TC005_CartTest - ****Navigating to Home Page******
+02:31:26.997 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:31:31.115 [main] INFO  testCases.TC005_CartTest - Navigating to Home page
+02:31:37.227 [main] INFO  testCases.TC005_CartTest - Added mutliple items to cart
+02:31:37.227 [main] INFO  testCases.TC005_CartTest - Navigate to Cart
+02:31:37.927 [main] INFO  testCases.TC005_CartTest - Total Price verification
+02:31:40.969 [main] INFO  testCases.TC005_CartTest - Navigate to Home Page
+02:31:41.365 [main] INFO  testCases.TC005_CartTest - Adding Product to Cart
+02:31:46.270 [main] INFO  testCases.TC005_CartTest - Navigate to Cart page
+02:31:46.778 [main] INFO  testCases.TC005_CartTest - Get Initial Cart Count
+02:31:47.901 [main] INFO  testCases.TC005_CartTest - Clear Cart
+02:32:10.775 [main] INFO  testCases.TC005_CartTest - Verify Cart is Empty
+02:32:24.075 [main] INFO  testCases.TC006_PurchaseTest - Add product to cart
+02:32:27.676 [main] INFO  testCases.TC006_PurchaseTest - Click Place Order
+02:32:30.805 [main] INFO  testCases.TC006_PurchaseTest - Verify user details section
+02:32:30.846 [main] INFO  testCases.TC006_PurchaseTest - user details section
+02:32:30.999 [main] INFO  testCases.TC006_PurchaseTest - Fill order details
+02:32:31.497 [main] INFO  testCases.TC006_PurchaseTest - Purchase and verify
+02:32:38.741 [main] INFO  testCases.TC007_EndToEndTest - ****End to End Test****
+02:32:38.742 [main] INFO  testCases.TC007_EndToEndTest - .....Home Page......
+02:32:38.742 [main] INFO  testCases.TC007_EndToEndTest - clicking login link
+02:32:41.844 [main] INFO  testCases.TC007_EndToEndTest - ....Login Page......
+02:32:45.217 [main] INFO  testCases.TC007_EndToEndTest - provided login user credentials
+02:32:45.219 [main] INFO  testCases.TC007_EndToEndTest - click login button
+02:32:45.299 [main] INFO  testCases.TC007_EndToEndTest - ....Product Details Page......
+02:32:49.502 [main] INFO  testCases.TC007_EndToEndTest - select product
+02:32:50.169 [main] INFO  testCases.TC007_EndToEndTest - added to the cart
+02:32:53.191 [main] INFO  testCases.TC007_EndToEndTest - ...Cart Page....
+02:32:54.100 [main] INFO  testCases.TC007_EndToEndTest - order Placed
+02:32:57.105 [main] INFO  testCases.TC007_EndToEndTest - Fill order details
+02:32:57.635 [main] INFO  testCases.TC007_EndToEndTest - provided all the details
+02:32:57.635 [main] INFO  testCases.TC007_EndToEndTest - Purchase and verify
+02:33:05.671 [main] INFO  testCases.TC007_EndToEndTest - End to End Test done successfully
